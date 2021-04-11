@@ -5,7 +5,12 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-
+/**
+* @Description:
+* @Author:         Rongsheng Zhang
+* @UpdateRemark:   修改内容
+* @Version:        1.0
+*/
 public class LLRBTree<K extends Comparable<K>, V> {
     private RBTreeNode<K, V> root;// 根结点
     private int size;//非空节点个数
