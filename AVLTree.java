@@ -1,5 +1,10 @@
 package company;
-
+/**
+* @Description:
+* @Author:         Rongsheng Zhang
+* @UpdateRemark:   修改内容
+* @Version:        1.0
+*/
 public class AVLTree {
 
     public AVLTreeNode insert(AVLTreeNode root, int data) {
