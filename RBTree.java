@@ -1,6 +1,11 @@
 package company;
 
-
+/**
+* @Description:
+* @Author:         Rongsheng Zhang
+* @UpdateRemark:   修改内容
+* @Version:        1.0
+*/
 public class RBTree<K extends Comparable<K>, V> {
     private TreeNode<K, V> ROOT;//根节点
     private int size;//节点个数
