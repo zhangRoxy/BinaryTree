@@ -64,17 +64,15 @@ public class RBTree<K extends Comparable<K>, V> {
         if (diff < 0) {
             if (root.right != NIL) {
                 containsX(root.right, X);
-            } else {
-                return false;
             }
         } else if (diff > 0) {
             if (root.left != NIL) {
                 containsX(root.left, X);
-            } else {
-                return false;
             }
         } else {
-            return true;
+            if(X.value==root.value){
+                return true;
+            }
         }
         return false;
     }
